@@ -55,4 +55,4 @@ This project is created to:
 
 ## 👨‍💻 Author
 
-**Raghavendra**
+**Swaroop Raghavendra**
