@@ -1,0 +1,53 @@
+## Tasks:
+
+### How the Page Should Look:
+### Page Structure:
+
+-> How the Page Should Look
+-> The side heading of the page should be "Tasks".
+-> The page title should be "Added Tasks".
+
+
+### How the Tasks Should Look:
+
+-> The page Should Show Task content & checkbox on the left. Dropdown should be shown when 
+hovered the task.
+-> On the left side, there should be a checkbox.
+-> The content added by the user should appear in the middle of the task box.
+-> Once a task is completed, it should be moved below the "Completed Tasks" section.
+-> Completed tasks should appear in a separate section(i.e "Completed Tasks") and 
+should be highlighted with a light color.
+
+---------------------
+
+### The Actions the Page Needs to Perform:
+
+-> When the "Add Task" button is clicked, the page should be redirected to another page.
+-> If no text is entered in the input box, an alert should be shown asking the user to add a task.
+-> The text entered by the user in the input box should be added to the next page as a list.
+->  When the user hovers over a task, it should show:
+There should be dropDown and the DropDown should contain:
+  * A Modify Task button
+  * A Delete Task button
+
+-> When the checkbox is clicked, the task should be marked as completed.
+-> The completed task text should have a **strikethrough**, and the background color of 
+the task should change.
+
+-------------------
+
+### When Hovering Over a Task
+
+-> On the right side, there should be a dropdown menu.
+Inside the dropdown, there should be:
+  * A Modify Task button to edit the task text
+  * A Delete Task button to remove the task
+
+-> Completed and non-completed tasks should be highlighted with a shadow effect when hovered, 
+and the task card should slightly move upward.
+-> For completed tasks, when hovered over, the task should be highlighted and should 
+display two buttons:
+  * Delete Task
+  * Re-add Task (to move the task back to the Tasks section)
+
+----------------------
