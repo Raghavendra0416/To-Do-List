@@ -13,11 +13,12 @@ document.getElementById("addTask-button").addEventListener("click", function () 
     console.log("Tasks", tasks);
 
     //Storing data in the browser. But if the tab closed then the data will also be deleted.
+    //Creating a session storage with name tasks and adding the tasks array to it.
     sessionStorage.setItem("tasks", JSON.stringify(tasks));
     console.log("Task Added!");
     alert("Task Got Added");
 
     //Redirect the page to another page.
     window.location.href = "Pages/tasksPage.html";
-    taskInp.value = '';
+    taskInp.value = ''; //Clear the content of the input box.
 });

@@ -1,3 +1,4 @@
+/* ------ Styling css for index & tasksPage ---------- */
 body {
     background-color: #e0ccdf92;
     font-family: 'Times New Roman', Times, serif;
@@ -11,18 +12,30 @@ body {
     white-space: nowrap;
 }
 
+.last {
+    border-radius: 40px 40px 0 0;
+    background-color: rgba(156, 95, 210, 0.63);
+}
+
+/* Same for both the pages for above */
+
+
+/* ------- Index Page Styling -------------- */
+
+/* Input Box for Tasks */
+/* Input wrapper: max 600px, but shrinks on small screens */
+.todo-input-wrapper {
+    max-width: 600px;
+    width: 100%;
+}
+
+/* To do List Title styling */
 .todo-title {
     margin-top: 13rem;
     text-align: center;
     font-size: clamp(2.4rem, 6vw, 4.5rem);
     /* 2.4rem on small, up to 4.5rem on large */
     color: blueviolet;
-}
-
-/* Input wrapper: max 600px, but shrinks on small screens */
-.todo-input-wrapper {
-    max-width: 600px;
-    width: 100%;
 }
 
 .about {
@@ -34,9 +47,11 @@ body {
     padding-bottom: 20px;
 }
 
-.last {
-    border-radius: 40px 40px 0 0;
-    background-color: rgba(156, 95, 210, 0.63);
+
+/* --------- tasksadder.js Styling ------- */
+
+#tasks-data {
+    list-style-type: none;
 }
 
 
