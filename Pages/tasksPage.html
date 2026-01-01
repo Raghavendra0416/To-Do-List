@@ -17,7 +17,7 @@
         <div class="container">
 
             <!-- Logo -->
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="../index.html">
                 <img src="../Assets/note_13650723.png" alt="Logo" height="40">
                 <span>My App</span>
             </a>
@@ -43,7 +43,7 @@
 
                     <!-- Menu item -->
                     <li class="nav-item ">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="../index.html">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -66,9 +66,22 @@
         </div>
     </nav>
 
+    <h3 id="tasks-heading" class="container">Tasks to be Added</h3>
+
+    <!-- Tasks That User Added -->
     <section class="container tasks-list">
         <ul id="tasks-data">
             <!-- The tasks User has entered, should be placed here using JS -->
+        </ul>
+        <button type="button" class="btn btn-secondary" id="new-task">Add Task</button>
+    </section>
+
+    <hr class="container">
+
+    <!-- Tasks User Completed -->
+    <section id="completed-tasks">
+        <ul id="completed-tasksData">
+            <!-- Add completed tasks by User -->
         </ul>
     </section>
 

@@ -50,9 +50,22 @@ body {
 
 /* --------- tasksadder.js Styling ------- */
 
+/* Removing the Bullet Points in UL */
 #tasks-data {
     list-style-type: none;
 }
+
+.task-container {
+    margin-top: 0.5rem;
+    height: auto;
+}
+
+.task-text {
+    font-size: 1.3rem;
+    /* font-weight: 700; */
+}
+
+
 
 
 /* ---------- MEDIA QUERIES ---------- */
