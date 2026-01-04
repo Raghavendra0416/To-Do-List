@@ -55,6 +55,8 @@ body {
     list-style-type: none;
 }
 
+
+/* JS styling */
 .task-container {
     margin-top: 0.5rem;
     height: auto;
@@ -62,11 +64,22 @@ body {
 
 .task-text {
     font-size: 1.3rem;
+    margin-left: 2.5rem;
     /* font-weight: 700; */
 }
 
+.task-action {
+    display: none;
+    transition: opacity 0.2s ease;
+}
 
+li:hover .task-action {
+    display: inline-block;
+}
 
+.check-box {
+    transform: scale(1.5);
+}
 
 /* ---------- MEDIA QUERIES ---------- */
 

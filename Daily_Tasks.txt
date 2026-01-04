@@ -1,0 +1,23 @@
+Tasks Left to Do:
+
+// Need to use event listners
+1. Add actions when user clicked on Modify Task.
+2. Add actions when user clicked on Delete Task.
+
+3. When User clicked on checkbox the task should be moved to the completed list.
+4. If the User unchecked the box then the task should be moved the task-data.
+
+5. Whenever user hover on a task the task should be heighligheted by the border/ task should show upwards. 
+5. Move the add task button in taskspage to the right.
+
+6. heading - Tasks to be Added should be styled.
+6. Styling the checkbox, options.
+
+7. Add link to About, Support, Account
+8. The Footer should be at the end of the page.
+
+9. Make changes that it should be responsive for mobile as well. 
+
+Extra:
+-> Make search button work for searching tasks.
+-> Add Github link.

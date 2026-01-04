@@ -18,13 +18,13 @@ tasksList.forEach((taskVal, ind) => {
     //Creating checkbox, task text, drop down options
     taskDiv.innerHTML = `
         <div>
-        <input type="checkbox" onchange="toggleStrike(this)" class="checkbox">
+        <input type="checkbox" onchange="toggleStrike(this)" class="check-box">
         <span class="task-text">${taskVal}</span>
         </div>
-        <select>
-        <option class="options">Select</option>
+        <select class="task-action">
+        <option>Select</option>
         <option id="modify-task-${ind}">Modify Task</option>
-        <option id="delete-task">Delete Task</option>
+        <option id="delete-task-${ind}">Delete Task</option>
         </select>
         `;
     li.append(taskDiv);
